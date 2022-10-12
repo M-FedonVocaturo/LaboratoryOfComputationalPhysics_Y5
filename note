@@ -1,0 +1,130 @@
+from local repository
+git status
+ls
+
+
+
+like in mathematica press shift enter
+
+
+git clone https://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@github.com/M-FedonVocaturo/LaboratoryOfComputationalPhysics_Y5.git
+
+git checkout -b DevBranch
+
+
+
+jupyter notebook
+00_introduction
+
+
+see https://realpython.com/pointers-in-python/
+there are NO pointers in python...
+everything is an object
+
+variables:
+-mutable: can be changed, very few
+-immutable: cannot be changed
+
+differences with C++
+C++ needs a compiler
+python is interpreted on flight
+
+
+
+this name points to this object 
+(name, value, reference count)
+
+when you update a variable you point to a name to another object, with a different reference count
+
+you create a new object 
+
+x is y??? pay attention
+>>> x = 1000
+>>> y = 1000
+>>> x is y
+True
+
+
+>>> x = 1000
+>>> y = 499 + 501
+>>> x is y
+False
+
+
+
+
+print(3 / 4)   here they're considered as Float not Integers like in C++
+print(3.0 / 4.0) its the same as the line before
+print(3 % 4)  
+print(3 // 4)  to divide as they're integers
+print(3**4)    new way to write power 3^4
+print(pow(3, 4))   old way
+
+
+
+#iterators
+
+#FOR LOOP simplified
+for i in range(1,10): print (i)
+
+#WHILE LOOP
+i = 1
+while i < 10:
+    print(i)
+    i+=1
+
+#enumerate 
+for i, j in enumerate([4,5,2,7]): print(i,j)
+
+
+
+
+NOTE: you don't have to end line with ;
+no brackets to define if,for.. statements just don't put them
+but pay attention to the indentation!!
+
+
+
+use # to comment the code
+
+
+def to define functions
+you don't need to specify the type of arguments you require in the function
+
+
+Lists
+think of a vector
+defined by square brackets
+
+a_list = [1, 2, 3, "this is a string", 5.3]
+ you can put whatever you want in there
+
+you can do a list of lists!!
+
+Count starts from 0, like in C++
+
+
+
+During the exam 
+you can access reference pages of Python
+documentation pages
+of Numpy, Panda etc
+
+
+
+Important thing: try to be as compact as possible
+
+
+difference between list and <tuple
+
+LIST ARE MUTABLE
+TUPLE are IMMUTABLE
+
+
+SETS used to store multiple items, NOT ordered, select only 1 elements for each value
+you cannot store 2 times the same value
+smth like in mathematics
+
+
+
+
