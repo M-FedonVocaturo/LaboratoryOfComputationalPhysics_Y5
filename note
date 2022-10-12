@@ -1,5 +1,5 @@
-Standard development cycle
-(TO BE DONE EVERY TIME)
+#Standard development cycle
+#(TO BE DONE EVERY TIME)
 
 git checkout main
 git fetch upstream
@@ -9,7 +9,7 @@ git pull
 git merge main
 
 
-
+#to commit locally modified files
 
 git add <FileName>
 git commit -m "some comment"
