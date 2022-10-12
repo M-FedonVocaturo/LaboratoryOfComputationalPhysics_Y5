@@ -1,15 +1,17 @@
-TO BE DONE EVERY TIME
+Standard development cycle
+(TO BE DONE EVERY TIME)
 
 git checkout main
 git fetch upstream
 git fetch upstream
-git checkout DevBranch
+git checkout <BranchName>
 git pull
 git merge main
 
 
-#if you create a newfile locally and want to add it
-git add <NewFile>
+
+
+git add <FileName>
 git commit -m "some comment"
 git push origin <BranchName>
 
