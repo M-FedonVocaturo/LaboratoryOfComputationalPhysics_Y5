@@ -3,7 +3,11 @@
 
 git checkout main
 git fetch upstream
+<<<<<<< HEAD
 git fetch upstream
+=======
+git merge upstream/main
+>>>>>>> main
 git checkout <BranchName>
 git pull
 git merge main
