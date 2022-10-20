@@ -1,0 +1,22 @@
+#Standard development cycle
+#(TO BE DONE EVERY TIME)
+
+git checkout main
+git fetch upstream
+git merge upstream/main
+
+
+git checkout <BranchName>
+git pull
+git merge main
+
+
+
+###
+#to commit locally modified files
+
+git add <FileName>
+git commit -m "some comment"
+git push origin <BranchName>
+
+
